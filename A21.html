@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_A.css">
+  <title>A21</title>
+
+</head>
+
+<body>
+
+  <div id="outline">
+
+    <!-- 그림 -->
+    <div class="img-outline">
+      <img src="img/A21.png" class="img">
+
+      <div class="set">
+        <text class="font">A21</text>
+      </div>
+    </div>
+
+    <audio controls="controls">
+      <source src="aud/A21.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- 페이지 이동 버튼 -->
+    <div id="button-box">
+      <button class="button-re" onclick="pageMove1()"></button>
+      <button class="button-next" onclick="pageMove2()"></button>
+    </div>
+
+    <script>
+      function pageMove1() {
+        location.href = "A20.html";
+      }
+
+      function pageMove2() {
+        location.href = "A22.html";
+      }
+    </script>
+
+  </div>
+
+</body>
+
+</html>

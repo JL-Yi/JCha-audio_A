@@ -1,0 +1,75 @@
+#outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  border: 0.5px solid #bfbfbf;
+  border-radius: 0.5em;
+  width: 360px;
+  height: 640px;
+  box-shadow: 2px 2px 2px 2px #d9d9d9;
+}
+
+.img-outline {
+  display: flex;
+  justify-content: center;
+  border: 1px solid none;
+  height: 450px;
+  width: 360px;
+  border: 1px solid none;
+  position: relative;
+  margin-bottom: auto;
+}
+
+.img {
+  height: 430px;
+  width: 350px;
+}
+
+.set {
+  height: 30px;
+  width: 100px;
+  border: 1px solid none;
+  line-height: 30px;
+  position: absolute;
+  margin-bottom: auto;
+  margin-top: 6px;
+}
+
+.font {
+  font-family: 'Nanum Gothic';
+  font-size: 20px;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.button-re {
+  background: url("img/button-re.png") no-repeat;
+  border: none;
+  width: 55px;
+  height: 55px;
+  size: 80%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.button-next {
+  background: url("img/button-next.png") no-repeat;
+  border: none;
+  width: 55px;
+  height: 55px;
+  size: 80%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.button-home {
+  background: url("img/button-home.png") no-repeat;
+  border: none;
+  width: 55px;
+  height: 55px;
+  size: 80%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
